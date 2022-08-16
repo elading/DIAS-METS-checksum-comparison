@@ -4,8 +4,8 @@ import xml.etree.ElementTree as ET
 import pathlib
 import sys
 
-# checklist_path_A = r"C:\Users\eirlad\OneDrive - Arkivverket\Skrivebord\Python-greier\skript DIAS\sjekksumlister\checksum_list_3aaede1.csv"
-# checklist_path_B = r"C:\Users\eirlad\OneDrive - Arkivverket\Skrivebord\Python-greier\skript DIAS\sjekksumlister\checksum_list_86f5930.csv"
+# checklist_path_A = r".\sjekksumlister\checksum_list_3aaede1.csv"
+# checklist_path_B = r".\sjekksumlister\checksum_list_86f5930.csv"
 
 checklist_path_A = sys.argv[1]
 checklist_path_B = sys.argv[2]
